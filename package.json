@@ -1,13 +1,31 @@
 {
   "name": "mini-react",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack",
+    "start": "npx webpack serve"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheeseLeee/mini-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CheeseLeee/mini-react/issues"
+  },
+  "homepage": "https://github.com/CheeseLeee/mini-react#readme",
   "devDependencies": {
-    "vite": "^2.8.0"
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "assert": "^2.0.0"
   }
 }
